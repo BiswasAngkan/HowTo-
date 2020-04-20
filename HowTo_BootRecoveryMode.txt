@@ -1,0 +1,11 @@
+# Angkan Biswas
+# 20.04.2020
+
+
+How to Boot into recovery mode
+
+1. Go to Ubuntu Recovery mode
+2. (initramfs) exit
+3. (initramfs) fsck <ERRONEOUS_FILESYSTEM_FOUND_BY_FCSK> -y
+4. (initramfs) reboot
+5. Click on Ubuntu option
