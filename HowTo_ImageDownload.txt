@@ -1,0 +1,14 @@
+1. Download google-images-download.git
+
+$ git clone https://github.com/Joeclinton1/google-images-download.git
+
+2. Run google_images_download.py using any 'python'
+
+$ python google-images-download/google_images_download/google_images_download.py -k <SEARCH_KEY1, SEARCH_KEY2,...,SEARCH_KEYN> -l <NUMBER> -i <DESTINATION_DIRECTORY>
+
+Examples:
+$ python google-images-download/google_images_download/google_images_download.py -k 'flower' -l 20
+$ python google-images-download/google_images_download/google_images_download.py -k 'flower' -l 20 -i Images
+$ python google-images-download/google_images_download/google_images_download.py -k 'flower,cat,dog,apple' -l 20 -i Images
+
+**** No space between keywords when multiple keywords are provided.
