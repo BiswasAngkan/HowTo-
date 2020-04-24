@@ -1,3 +1,6 @@
+# Angkan Biswas
+# 24.04.2020
+
 1. Download google-images-download.git
 
 $ git clone https://github.com/Joeclinton1/google-images-download.git
